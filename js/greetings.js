@@ -18,7 +18,7 @@ localStorage.setItem(USERNAME_KEY,username); // username을 localstorage에 저�
 paintGreetings(username);
 }
 
-// 인삿말을 저장된 username으로 채워주는 함수
+// greeting을 보이고  인삿말을 저장된 username으로 채워주는 함수
 function paintGreetings(username){
     greeting.classList.remove(HIDDEN_CLASSNAME); // greeting태그의 hidden클래스 제거= greeting을 보임
     greeting.innerText=`Hello ${username}`;
